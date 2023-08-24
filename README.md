@@ -30,7 +30,8 @@ Git Bash 사용법을 기술합니다.
     1-1. Git Bash 설치
 * [git bash 공식 사이트](https://git-scm.com/) 접속하여 다운로드
 * 약관 동의 및 default 설정 그대로 설치 진행
-* 설치 중간 에디터 설정 확인 (자주 사용하는 에디터 > VSCode 등)
+* 설치 중간 에디터 설정 확인 (자주 사용하는 에디터 > VSCode 등) <br>
+![image](https://github.com/chjr68/Git_Bash/blob/main/images/1-1.%20Editor_Setting.png)
 * 설치 완료
 * 버전 확인 <br>
 \# git version
@@ -38,7 +39,8 @@ Git Bash 사용법을 기술합니다.
 ## 2. **사용 방법**
     2-1. Git Bash 접근
 * 로컬 PC에서 작업하는 소스가 있는 디렉토리로 이동
-* 마우스 우 클릭 > "Open Git Bash here"
+* 마우스 우 클릭 > "Open Git Bash here" <br>
+![image](https://github.com/chjr68/Git_Bash/blob/main/images/2-1.%20Open_Git_Bash.png)
 ## 3. **Command**
     3-1. 자주 쓰는 명령어 리스트, 사용 방법
 * git config 
