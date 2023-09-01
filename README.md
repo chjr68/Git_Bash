@@ -20,7 +20,9 @@ Git Bash 사용법을 기술합니다.
     * git pull
 4. Trouble Shooting
     * warning: in the working copy of '파일 명', LF will be replaced by CRLF the next time Git touches it
+    * src refspec main does not match any
     * Github 디렉토리에 화살표 표시 (폴더 클릭 불가능)
+    
 
 ## 0. **Git Bash 사용하는 이유**
 * Github에서 파일 업로드 시, 최대 100개 까지로 제한됨
@@ -31,7 +33,7 @@ Git Bash 사용법을 기술합니다.
 * [git bash 공식 사이트](https://git-scm.com/) 접속하여 다운로드
 * 약관 동의 및 default 설정 그대로 설치 진행
 * 설치 중간 에디터 설정 확인 (자주 사용하는 에디터 > VSCode 등) <br>
-![image](https://github.com/chjr68/Git_Bash/blob/main/images/1-1.%20Editor_Setting.png)
+![image](https://github.com/chjr68/Git_Bash/blob/main/images/1.GitBash_EditorSetting.png)
 * 설치 완료
 * 버전 확인 <br>
 \# git version
@@ -40,7 +42,7 @@ Git Bash 사용법을 기술합니다.
     2-1. Git Bash 접근
 * 로컬 PC에서 작업하는 소스가 있는 디렉토리로 이동
 * 마우스 우 클릭 > "Open Git Bash here" <br>
-![image](https://github.com/chjr68/Git_Bash/blob/main/images/2-1.%20Open_Git_Bash.png)
+![image](https://github.com/chjr68/Git_Bash/blob/main/images/1.GitBash_OpenGitBash.png)
 ## 3. **Command**
     3-1. 자주 쓰는 명령어 리스트, 사용 방법
 * git config 
@@ -97,6 +99,14 @@ autocrlf 사용
 # git commit -m "texts"
 # git push origin
 ```
+```
+4-3. src refspec main does not match any
+----------------------------------------------------------------------------------------------------------------------------------
+pull 명령어 없이 push 할 경우, 기존 내용 삭제 될 수 있기 때문
+----------------------------------------------------------------------------------------------------------------------------------
+
+```
+
 
 # BUGS
 Please report bugs to me
