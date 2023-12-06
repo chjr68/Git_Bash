@@ -18,6 +18,7 @@ Git Bash 사용법을 기술합니다.
     * git remote
     * git push
     * git pull
+    * git checkout
 4. Trouble Shooting
     * warning: in the working copy of '파일 명', LF will be replaced by CRLF the next time Git touches it
     * src refspec main does not match any
@@ -55,6 +56,12 @@ Git Bash 사용법을 기술합니다.
 * git remote
 * git push
 * git pull
+* git checkout -- {파일경로}
+  * git status 의 Changes not staged for commit: 항목 삭제
+* git clean -option
+  * -f: Untracked 파일을 모두 삭제
+  * -fd: 디렉토리 까지 모두 삭제 
+
 ## 4. **Trouble Shooting**
 - 아래와 같이 표기 <br>
 
